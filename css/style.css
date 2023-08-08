@@ -1,0 +1,33 @@
+body{
+    box-sizing: border-box;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/fondo5.jpg);
+}
+.juegos{
+    display: flex;
+    flex-direction: row;
+}
+.contenedor img{
+    cursor: pointer;
+    width: 300px;
+
+}
+section a{
+    margin: 30px;
+    text-decoration: none;
+    color: #000;
+}
+a h2{
+    font-size: 40px;
+    text-align: center;
+    color: aliceblue;
+
+}
+a:visited{
+    color: #000;
+}
